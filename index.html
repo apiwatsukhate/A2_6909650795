@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1>My First Learning Portfolio</h1>
+    </header>
+    <main class="container">
+      <section id="about">
+        <h2>About Me</h2>
+        <div class="about-card">
+          <img
+            src="media/20250417_062945.jpg"
+            alt="Profile Picture"
+            id="profile-picture"
+          />
+          <article>
+            <p><strong>ชื่อ-นามสกุล:</strong> อภิวัชร์ สุขะเต</p>
+            <p><strong>ชื่อเล่น:</strong> ณัฏฐ์</p>
+            <p><strong>เลขประจำตัว:</strong> 6909650795</p>
+            <p><strong>มหาวิทยาลัย:</strong> มหาวิทยาลัยธรรมศาสตร์ รังสิต</p>
+            <p><strong>คณะ:</strong> วิทยาศาสตร์และเทคโนโลยี</p>
+            <p><strong>สาขา:</strong> วิทยาการคอมพิวเตอร์</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="text" class="content-section">
+        <h2>What I Built</h2>
+        <article>
+          <p>
+            งานนี้เป็นการสร้างเว็บไซต์ My First Learning Portfolio
+            เพื่อแนะนำตนเอง โดยมีส่วนประกอบสำคัญคือ ส่วนหัวข้อเว็บไซต์ (Header),
+            ส่วนข้อมูลส่วนตัวและรูปโปรไฟล์ (About Me),
+            ส่วนอธิบายรายละเอียดชิ้นงาน (What/How I Built It),
+            ส่วนสะท้อนการเรียนรู้ (Reflection) และส่วนท้ายเว็บ (Footer)
+          </p>
+          <p>
+            การพิจารณาเรื่อง Client / Server
+            ในขณะที่เปิดเว็บไซต์นี้ขึ้นมาจากเครื่องของตนเอง ถือว่ามี Client
+            เกิดขึ้นแล้ว แต่ยังไม่มี Server เนื่องจากเว็บเบราว์เซอร์
+            ทำหน้าที่เป็น Client ในการอ่านและประมวลผลไฟล์ HTML/CSS
+            โดยตรงจากดิสก์ภายในเครื่อง โดยไม่ได้มีการส่งคำขอ (Request)
+            ผ่านเครือข่ายไปยัง Web Server
+          </p>
+        </article>
+      </section>
+
+      <section id="text" class="content-section">
+        <h2>How I Built It</h2>
+        <article>
+          <p>งานนี้สร้างขึ้นโดย HTML และ CSS โดยมีขั้นตอนสำคัญดังนี้:</p>
+          <ol>
+            <li>วางโครงสร้าง HTML โดยทำตามที่โจทย์กำหนด</li>
+            <li>
+              จัดระเบียบสไตล์ด้วย CSS โดยการกำหนด CSS
+              เพื่อจัดการโทนสีและขนาดฟอนต์อย่างเป็นระบบ
+            </li>
+          </ol>
+          <p>
+            เครื่องมือและแหล่งข้อมูลที่ใช้: VS Code
+            เป็นเครื่องมือหลักในการเขียนโค้ด ร่วมกับแหล่งเรียนรู้เพิ่มเติมอย่าง
+            W3Schools สำหรับอ้างอิง CSS กับ HTML และศึกษาไอเดีย UI/UX เพิ่มเติม
+          </p>
+        </article>
+      </section>
+
+      <section id="text" class="content-section">
+        <h2>Reflection</h2>
+        <ol class="reflection-list">
+          <li>
+            <strong>ปัญหาหรือความท้าทายที่พบ และการรับมือ:</strong><br />
+            ความท้าทายคือการจัด Layout และการเลือกใช้ Spacing/Margin
+            ให้ดูไม่แออัดและเป็นมืออาชีพ
+          </li>
+          <li>
+            <strong>สิ่งที่เข้าใจเกี่ยวกับการพัฒนาเว็บไซต์มากขึ้น:</strong
+            ><br />
+            เข้าใจถึงบทบาทของ HTML และ CSS ในการทำงานร่วมกัน
+            รวมถึงเข้าใจหลักการทำงานเบื้องต้นของ Browser ในฐานะ Client
+            ที่ทำหน้าที่ Render โค้ดออกมาเป็นหน้าตา UI ที่ผู้ใช้มองเห็น
+          </li>
+          <li>
+            <strong>สิ่งที่อยากปรับปรุงหรือเพิ่มในอนาคต และเหตุผล:</strong
+            ><br />
+            อยากเพิ่ม JavaScript เพื่อให้หน้าเว็บมี Interactive
+            และอยากลองเอาไปขึ้นเว็บไปขึ้้น Web Server จริง
+          </li>
+        </ol>
+      </section>
+      <video class="video" src="media/P1645375_1_1.mp4" controls></video>
+    </main>
+    <footer id="footer">
+      <div class="footer-content">
+        <h3>Contact Me</h3>
+        <div class="contact-items">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:apiwat.suk@dome.tu.ac.th"
+              >apiwat.suk@dome.tu.ac.th</a
+            >
+          </p>
+          <p>
+            <strong>IG:</strong>
+            <a href="https://www.instagram.com/apt_nut" target="_blank"
+              >apt_nut</a
+            >
+          </p>
+          <p>
+            <strong>Website:</strong>
+            <a href="https://nutapiwat25.github.io/homework/" target="_blank"
+              >homie.-งานกลุ่มมหาลัย</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #2b2d42;
+  line-height: 1.6;
+}
+#header {
+  background: linear-gradient(135deg, #0056b3, #003366);
+  color: #ffffff;
+  padding: 3rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+#header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.subtitle {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+#about,
+#text {
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+#about h2,
+#text h2 {
+  color: #0056b3;
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 0.5rem;
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+.about-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+#profile-picture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  border: 4px solid #e9ecef;
+}
+.about-card article p {
+  margin: 0.5rem 0;
+  font-size: 1.05rem;
+}
+.reflection-list {
+  padding-left: 1.2rem;
+}
+.reflection-list li {
+  margin-bottom: 1.2rem;
+}
+#footer {
+  background-color: #1a1a1a;
+  color: #d1d1d1;
+  padding: 2.5rem 1rem 1.5rem;
+  margin-top: 3rem;
+}
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-content h3 {
+  color: #ffffff;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.contact-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.contact-items p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+.contact-items a {
+  color: #4dabf7;
+  text-decoration: none;
+}
+.contact-items a:hover {
+  text-decoration: underline;
+}
+.video {
+  display: block;
+  max-width: 100%;
+  margin: 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
