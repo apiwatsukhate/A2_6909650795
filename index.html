@@ -30,70 +30,58 @@
         </div>
       </section>
 
-      <section id="text" class="content-section">
-        <h2>What I Built</h2>
-        <article>
-          <p>
-            งานนี้เป็นการสร้างเว็บไซต์ My First Learning Portfolio
-            เพื่อแนะนำตนเอง โดยมีส่วนประกอบสำคัญคือ ส่วนหัวข้อเว็บไซต์ (Header),
-            ส่วนข้อมูลส่วนตัวและรูปโปรไฟล์ (About Me),
-            ส่วนอธิบายรายละเอียดชิ้นงาน (What/How I Built It),
-            ส่วนสะท้อนการเรียนรู้ (Reflection) และส่วนท้ายเว็บ (Footer)
-          </p>
-          <p>
-            การพิจารณาเรื่อง Client / Server
-            ในขณะที่เปิดเว็บไซต์นี้ขึ้นมาจากเครื่องของตนเอง ถือว่ามี Client
-            เกิดขึ้นแล้ว แต่ยังไม่มี Server เนื่องจากเว็บเบราว์เซอร์
-            ทำหน้าที่เป็น Client ในการอ่านและประมวลผลไฟล์ HTML/CSS
-            โดยตรงจากดิสก์ภายในเครื่อง โดยไม่ได้มีการส่งคำขอ (Request)
-            ผ่านเครือข่ายไปยัง Web Server
-          </p>
-        </article>
+      <section id="portfolio" class="mb-5">
+        <h2 class="text-primary mb-4">My Portfolio</h2>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card h-100 shadow-sm border-0 rounded-4">
+              <div class="card-body d-flex flex-column">
+                <span class="badge bg-secondary mb-2 align-self-start">Course Assignment</span>
+                <h3 class="card-title h4 text-dark">CS100 A1: My First Learning Portfolio</h3>
+                <p class="text-muted small mb-2"><strong>Date:</strong> 30 Aug 2026 | <strong>Role:</strong> Individual Developer</p>
+                <p class="card-text">พัฒนาเว็บไซต์ Learning Portfolio หน้าเดียวด้วย HTML และ CSS พื้นฐาน เพื่อฝึกโครงสร้าง Semantic HTML และการจัดหน้าเว็บ</p>
+                <p><strong>Skills:</strong> HTML, CSS, Semantic HTML</p>
+                
+                <hr>
+                <h5 class="h6 text-primary fw-bold">Reflection:</h5>
+                <ul class="small ps-3 mb-3">
+                  <li><strong>What I did:</strong> สร้างเว็บไซต์แนะนำตัวและสรุปงาน A1 ด้วย HTML/CSS</li>
+                  <li><strong>What I learned:</strong> เข้าใจการทำงานร่วมกันของ HTML และ CSS รวมถึงพื้นฐาน Client-side rendering</li>
+                  <li><strong>Challenge:</strong> จัดการเรื่อง Layout และ Spacing ให้ดูสะอาดตา แก้ไขโดยศึกษาและปรับค่า Margin/Padding ทีละจุด</li>
+                  <li><strong>Next step:</strong> ต้องการพัฒนาต่อยอดให้รองรับ Responsive หลายขนาดหน้าจอด้วย Bootstrap ในงาน A2</li>
+                </ul>
+                <div class="mt-auto pt-2">
+                  <a href="https://drive.google.com/drive/folders/1gIlMdfpWsZjxia5EpGlk6Jqp7vhsP3jc?usp=sharing" target="_blank" class="btn btn-sm btn-outline-success mb-2">View Certificate / Evidence</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card h-100 shadow-sm border-0 rounded-4">
+              <div class="card-body d-flex flex-column">
+                <span class="badge bg-success mb-2 align-self-start">Mini Project</span>
+                <h3 class="card-title h4 text-dark">เว็บจดการบ้าน</h3>
+                <p class="text-muted small mb-2"><strong>Date:</strong> 19 Aug 2026 | <strong>Role:</strong> Self-learning</p>
+                <p class="card-text">สร้างเว็บไซต์สำหรับจดการบ้านและจัดการงานที่ได้รับมอบหมายในกลุ่มเพื่อน</p>
+                <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+                
+                <hr>
+                <h5 class="h6 text-primary fw-bold">Reflection:</h5>
+                <ul class="small ps-3 mb-3">
+                  <li><strong>What I did:</strong> สร้างเว็บไซต์จดการบ้านโดยใช้ HTML, CSS, และ JavaScript</li>
+                  <li><strong>What I learned:</strong> การใช้ HTML, CSS, และ JavaScript ในการสร้างเว็บไซต์แบบโต้ตอบ</li>
+                  <li><strong>Challenge:</strong> ความท้าทายคือการจัดการกับการทำงานของ JavaScript ให้ทำงานได้ตามที่ต้องการ</li>
+                  <li><strong>Next step:</strong> ต้องการพัฒนาเว็บไซต์ให้รองรับฟีเจอร์ใหม่ๆ และปรับปรุง UX ให้ดียิ่งขึ้น</li>
+                </ul>
+                <div class="mt-auto pt-2">
+                  <a href="https://github.com/nutapiwat25/homework.git" target="_blank" class="btn btn-sm btn-outline-dark me-2 mb-2">GitHub Repository</a>
+                  <a href="https://nutapiwat25.github.io/homework/" target="_blank" class="btn btn-sm btn-primary mb-2">Deployed Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-
-      <section id="text" class="content-section">
-        <h2>How I Built It</h2>
-        <article>
-          <p>งานนี้สร้างขึ้นโดย HTML และ CSS โดยมีขั้นตอนสำคัญดังนี้:</p>
-          <ol>
-            <li>วางโครงสร้าง HTML โดยทำตามที่โจทย์กำหนด</li>
-            <li>
-              จัดระเบียบสไตล์ด้วย CSS โดยการกำหนด CSS
-              เพื่อจัดการโทนสีและขนาดฟอนต์อย่างเป็นระบบ
-            </li>
-          </ol>
-          <p>
-            เครื่องมือและแหล่งข้อมูลที่ใช้: VS Code
-            เป็นเครื่องมือหลักในการเขียนโค้ด ร่วมกับแหล่งเรียนรู้เพิ่มเติมอย่าง
-            W3Schools สำหรับอ้างอิง CSS กับ HTML และศึกษาไอเดีย UI/UX เพิ่มเติม
-          </p>
-        </article>
-      </section>
-
-      <section id="text" class="content-section">
-        <h2>Reflection</h2>
-        <ol class="reflection-list">
-          <li>
-            <strong>ปัญหาหรือความท้าทายที่พบ และการรับมือ:</strong><br />
-            ความท้าทายคือการจัด Layout และการเลือกใช้ Spacing/Margin
-            ให้ดูไม่แออัดและเป็นมืออาชีพ
-          </li>
-          <li>
-            <strong>สิ่งที่เข้าใจเกี่ยวกับการพัฒนาเว็บไซต์มากขึ้น:</strong
-            ><br />
-            เข้าใจถึงบทบาทของ HTML และ CSS ในการทำงานร่วมกัน
-            รวมถึงเข้าใจหลักการทำงานเบื้องต้นของ Browser ในฐานะ Client
-            ที่ทำหน้าที่ Render โค้ดออกมาเป็นหน้าตา UI ที่ผู้ใช้มองเห็น
-          </li>
-          <li>
-            <strong>สิ่งที่อยากปรับปรุงหรือเพิ่มในอนาคต และเหตุผล:</strong
-            ><br />
-            อยากเพิ่ม JavaScript เพื่อให้หน้าเว็บมี Interactive
-            และอยากลองเอาไปขึ้นเว็บไปขึ้้น Web Server จริง
-          </li>
-        </ol>
-      </section>
-      <video class="video" src="media/P1645375_1_1.mp4" controls></video>
     </main>
     <footer id="footer">
       <div class="footer-content">
